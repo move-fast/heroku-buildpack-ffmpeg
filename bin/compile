@@ -10,7 +10,7 @@ ENV_DIR=$3
 VENDOR_BIN_DIR="$BUILD_DIR/vendor/bin"
 PROFILE_PATH="$BUILD_DIR/.profile.d/ffmpeg.sh"
 FFMPEG_BIN_URL="	
-https://s3-eu-west-1.amazonaws.com/movefast.de/deployment/ffmpeg-release-64bit-static.tar.xz"
+https://s3-eu-west-1.amazonaws.com/movefast-quickhost/deployment/ffmpeg-release-64bit-static.tar.xz"
 if [ -f "$ENV_DIR/FFMPEG_BIN_URL" ]; then
   FFMPEG_BIN_URL=$(cat $ENV_DIR/FFMPEG_BIN_URL)
 fi
